@@ -9,13 +9,14 @@ namespace FamiliadeClasesTheSimpsonCorregido     // Note: actual namespace depen
             Console.WriteLine("Hello World!");
             //Se crea el abuelo para utilizar sus metodos
             AbrahamSipson abrahamSipson = new AbrahamSipson();
+            Console.WriteLine(abrahamSipson.patriota);
             abrahamSipson.patriota = "Si";
             abrahamSipson.escucha = "no";
             abrahamSipson.peso = 154;
             Console.WriteLine("Tiene un peso excesivo abuelo es de " + abrahamSipson.peso + "kg");
             Console.WriteLine("Este señorón " + abrahamSipson.patriota + " es patriota " + "y " + abrahamSipson.escucha + " escucha");
             //Se creará a la abuela MonaSimpson
-            MonaSimpson monaSimpson= new MonaSimpson();
+            MonaSimpson monaSimpson = new MonaSimpson();
             monaSimpson.edad = 145;
             monaSimpson.estadoCivilMona = "casada";
             monaSimpson.amable = false;
@@ -44,10 +45,10 @@ namespace FamiliadeClasesTheSimpsonCorregido     // Note: actual namespace depen
             homeroSimpson.escucha = "No, al igual que su padre";
             homeroSimpson.humor = "igual que su mama";
             Console.WriteLine("Homero Simpson, tiene un sobre peso de " + homeroSimpson.peso + " es " + homeroSimpson.pensamiento +
-                " tiene una personalidad " + homeroSimpson.personalidad + 
-                " además es " + homeroSimpson.patriota + " como su padre " + " tiene un humor " + homeroSimpson.humor + 
-                homeroSimpson.escucha + " se caracteriza " + homeroSimpson.palabraCaracteristica + 
-                " además consume alcohol y tiene perdida de cabello");
+            " tiene una personalidad " + homeroSimpson.personalidad + 
+            " además es " + homeroSimpson.patriota + " como su padre " + " tiene un humor " + homeroSimpson.humor + 
+            homeroSimpson.escucha + " se caracteriza " + homeroSimpson.palabraCaracteristica + 
+            " además consume alcohol y tiene perdida de cabello");
             //Sigue MargeSimpson
             MargeSimpson margeSimpson = new MargeSimpson();
             margeSimpson.trabaja = true;
@@ -57,10 +58,49 @@ namespace FamiliadeClasesTheSimpsonCorregido     // Note: actual namespace depen
             margeSimpson.viva = true;
             margeSimpson.estadoCivil = "Soltera";
             Console.WriteLine("MargeSimpson, tiene una edad de " + margeSimpson.edad + " además ella es paciente " + margeSimpson.paciente
-                + " ¿cuál es su signo zodiacal? " + margeSimpson.signoZodiacal + " ¿esta viva? " + margeSimpson.viva);
+            +" ¿cuál es su signo zodiacal? " + margeSimpson.signoZodiacal + " ¿esta viva? " + margeSimpson.viva);
             //Creo que existe un problema porque hay metodos que se parecen en clases "madres"
+            //Ahora crearemos a BartSimpson
+            BartSimpson bartSimpson = new BartSimpson();
+            bartSimpson.picardia = true;
+            bartSimpson.humor = "Buena onda";
+            bartSimpson.usaSkateBoard = true;
+            bartSimpson.pensamiento = "le gusta el chocolate";
+            bartSimpson.consumeAlcohol = true;
+            bartSimpson.escucha = "escucha un poco";
+            bartSimpson.rebelde = true;
+            bartSimpson.peso = 38;
+            bartSimpson.perdidaDeCabello = true;
+            bartSimpson.consumeAlcohol = false;
+            //MaggieSimpson
+            MaggieSimpson maggieSimpson = new MaggieSimpson();
+            maggieSimpson.peso = 10;
+            maggieSimpson.pensamiento = "no piensa";
+            maggieSimpson.consumeAlcohol = false;
+            maggieSimpson.palabraCaracteristica = "no tiene";
+            maggieSimpson.tamaño = "Smart";
+            maggieSimpson.patriota = "Si";
+            maggieSimpson.hermanaDeBart = true;
+            maggieSimpson.escucha = "Si";
+            maggieSimpson.humor = "wena onda";
+            maggieSimpson.ojosGrandes = true;
+            maggieSimpson.perdidaDeCabello = false;
+            maggieSimpson.personalidad = "chevere";
+            //LisaSimpson
+            maggieSimpson.peso = 10;
+            maggieSimpson.pensamiento = "no piensa";
+            maggieSimpson.consumeAlcohol = false;
+            maggieSimpson.palabraCaracteristica = "no tiene";
+            maggieSimpson.tamaño = "Smart";
+            maggieSimpson.patriota = "Si";
+            maggieSimpson.hermanaDeBart = true;
+            maggieSimpson.escucha = "Si";
+            maggieSimpson.humor = "wena onda";
+            maggieSimpson.ojosGrandes = true;
+            maggieSimpson.perdidaDeCabello = false;
+            maggieSimpson.personalidad = "chevere";
 
-            
+
 
 
         }

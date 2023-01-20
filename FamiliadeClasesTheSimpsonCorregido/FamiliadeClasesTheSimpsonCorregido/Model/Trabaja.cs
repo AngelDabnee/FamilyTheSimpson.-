@@ -6,7 +6,7 @@ using System.Text;
 namespace FamiliadeClasesTheSimpsonCorregido
 {
     public interface Trabaja
-    {
+    { 
 
     }
 }

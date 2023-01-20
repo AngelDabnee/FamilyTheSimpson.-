@@ -18,19 +18,25 @@ namespace FamiliadeClasesTheSimpsonCorregido
 
         public double peso;
 
-        public void definirHumor()
+        public string definirHumor(string humor)
         {
             // TODO implement here
+            humor = "buena onda";
+            return humor;
         }
 
-        public void definirPeso()
+        public double definirPeso(double peso)
         {
             // TODO implement here
+            peso = 1561;
+            return peso;
         }
 
-        public void definirPersonalidad()
+        public string definirPersonalidad(string personalidad)
         {
             // TODO implement here
+            personalidad = "Chevere";
+            return personalidad;
         }
 
     }
