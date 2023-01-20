@@ -18,25 +18,32 @@ namespace FamiliadeClasesTheSimpsonCorregido
 
         public string patriota;
 
-        public string definirPensamiento()
+        public string definirPensamiento(string pensamiento)
         {
             // El abuelo abrham sipson tendrá pensamientos correctos
-            string pensamiento = "Soy buena persona";
+            pensamiento = "Soy buena persona";
             return pensamiento;
         }
 
-        public string definirEscucha()
+        public string definirEscucha(string escucha)
         {
             // Diremos que es medio sordo Recuerda programarlo en un CW. 
-            string escucha = "no";
+            escucha = "no";
+            Console.WriteLine(escucha);
             return escucha;
         }
 
-        public string definirPatriota()
+        public string definirPatriota(string patriota)
         {
             //Diremos que si es patriota, recuerda programarlo en CW en program
-            string patriota = "no";
+            patriota = "este es muy patriota";
+            Console.WriteLine("este es muy patriota");
             return patriota;
+        }
+        public string definirHumor(string humor) 
+        {
+            humor = "";
+            return humor;
         }
 
     }
